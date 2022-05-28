@@ -1,0 +1,99 @@
+
+        :root {
+            --main-bg-color: #222831;
+            --second-bg-color: #30475E;
+            --third-bg-color: #F05454;
+            --main-text-color: #8fa1bd;
+            --second-text-color: #eef3fc;
+            --third-text-color: #f8bebe;
+          }
+        body{
+            background-color: var(--main-bg-color);
+            color: var(--main-text-color);
+        }
+        .navbar{
+            background-color: var(--third-bg-color);
+        }
+        form{
+            background-color: var(--second-bg-color);
+            color: var(--second-text-color);
+        }
+        .card {
+            background-color: var(--second-bg-color);
+            color: var(--second-text-color);
+        }
+        .btn{
+            background-color: var(--main-bg-color);
+            color: var(--second-text-color);
+        }
+        .btn:hover{
+            background-color: var(--third-bg-color);
+            color: var(--main-text-color);
+        }
+        .form-control {
+            color: var(#30475E);
+            background-color: var(--main-text-color);
+            border: #1A132F;
+        }
+        .form-select{
+            color: var(#30475E);
+            background-color: var(--main-text-color);
+            border: #1A132F;
+        }
+        .btn_x{
+            background-color: var(--third-bg-color);
+            color: var(--third-text-color);
+            border: none;
+        }
+        .btn_x:hover{
+            background-color: var(--third-text-color);
+            color: var(--third-bg-color);
+            border: none;
+        }
+        .carousel-caption {
+            background-color: #00000070;
+            border-radius: 18px;
+        }
+        
+        .carousel-img {
+            height: 350px;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        .blog-img {
+            background-image: url(../assets/joy-con-1_new.avif);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .blog-img-2 {
+            background-image: url(../assets/mode-3.avif);
+            background-position: center;
+            background-size: cover;
+        }
+        
+        .sugerencias-a {
+            height: 200px;
+            background-position: bottom;
+            background-size: cover;
+            border-radius: 50px;
+        }
+        
+        .recuadro-act {
+            background-color:  var(--second-text-color);
+            padding: 5px 10px;
+            border-radius: 15px;
+        }
+        
+        .fox-recuadro {
+            border-radius: 30px;
+            overflow: hidden;
+            max-width: 540px;
+        }
+        
+        .card-body a {
+            border-radius: 40px;
+        }
+        
